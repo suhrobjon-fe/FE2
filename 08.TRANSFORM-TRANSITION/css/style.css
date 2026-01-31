@@ -1,0 +1,53 @@
+body{
+    color: white;
+    background-color: #212121;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    
+    cursor: pointer;
+    background-color: red;
+
+    /* transition: .5s width, height .2s steps(4); */
+    /* transition-duration: .5s;
+    transition-property: width, height;
+    transition-delay: .2s;
+    transition-timing-function: ease-in-out; */
+
+    transition: .5s;
+}
+
+.box:hover{
+    /* width: 150px;
+    height: 150px;
+    background-color: blue; */
+
+    /* transform: rotate(-45deg); */
+    /* transform: translate(50px, 50px); */
+    /* transform: skew(-10deg); */
+    transform: scale(1.1);
+    /* transform: translate(150px, 50px) scale(1.5) rotate(45deg); */
+}
+.el2{
+    background-color: green;
+}
+
+.el1:hover + .el2{
+    background-color: blue;
+}
+
+/* SELECTORS */
+/* 1. TagName */
+/* 2. ClassName */
+/* 3. idName */
+/* 4. attrName */
+
+/* COMBINATOR */
+/* > + ~ * , */
+
+/* input[checked]{
+    width: 100px;
+    background-color: red;
+} */
